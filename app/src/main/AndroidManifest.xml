@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamMe">
         <activity
-            android:name=".Account"
+            android:name=".account.Account"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
