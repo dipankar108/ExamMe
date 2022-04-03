@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExamMe">
         <activity
+            android:name=".ExamActivity"
+            android:exported="false" />
+        <activity
             android:name=".account.Account"
             android:exported="false" />
         <activity

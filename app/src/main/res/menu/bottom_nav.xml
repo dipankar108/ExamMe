@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Challenge"
-        />
-    <item android:title="Profile" />
     <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/ic_challange"
+        android:title="favorites" />
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile"
+        android:title="music" />
+    <item
+        android:id="@+id/page_3"
+        android:enabled="true"
         android:icon="@drawable/ic_exam"
-        android:title="MyExam" />
-    <item android:title="LeaderBord" />
-    <item android:title="Exam History" />
+        android:title="places" />
+    <item
+        android:id="@+id/page_4"
+        android:enabled="true"
+        android:icon="@drawable/ic_challange"
+        android:title="news" />
 </menu>
