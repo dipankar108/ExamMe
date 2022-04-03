@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/purple_200"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_question_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="what is capital of Bangladesh ?"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/rg_answerList_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/rb_answer1_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dhaka" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer2_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chitagong" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer3_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="khulna" />
+
+                <RadioButton
+                    android:id="@+id/rb_answer4_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rajshahi" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
